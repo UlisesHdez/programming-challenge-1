@@ -29,8 +29,10 @@ const main = () => {
       case 3:
         backgroundTasks = parser.parseTasks(line);
         inputLine = 0;
-        console.log(
-          getOptimalTasks(capacity, foregroundTasks, backgroundTasks)
+        stf.write(
+          parser.resultToString(
+            getOptimalTasks(capacity, foregroundTasks, backgroundTasks)
+          )
         );
         break;
       default:

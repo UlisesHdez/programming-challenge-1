@@ -9,4 +9,10 @@ module.exports = {
         return { id: taskData[0], consumption: Number(taskData[1]) };
       });
   },
+  resultToString: (result) => {
+    return result
+      .map((r) => `(${r.f.id}, ${r.b.id})`)
+      .join(", ")
+      .concat("\r\n");
+  },
 };
