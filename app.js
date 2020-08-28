@@ -3,6 +3,7 @@
 const fileIO = require("./modules/fileIOHelper.js");
 const constants = require("./constants.js");
 const parser = require("./modules/parser.js");
+const { getOptimalTasks } = require("./modules/tasks.js");
 
 var inputLine = 1;
 var capacity = 0;
@@ -28,7 +29,9 @@ const main = () => {
       case 3:
         backgroundTasks = parser.parseTasks(line);
         inputLine = 0;
-        console.log(capacity, foregroundTasks, backgroundTasks);
+        console.log(
+          getOptimalTasks(capacity, foregroundTasks, backgroundTasks)
+        );
         break;
       default:
     }
