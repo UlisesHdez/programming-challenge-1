@@ -1,0 +1,25 @@
+{
+  "name": "programming-challenge-1",
+  "version": "1.0.0",
+  "description": "Javascript solution for Challenge 1, consists of finding the optimal sets of tasks and printing their IDs",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesHdez/programming-challenge-1.git"
+  },
+  "keywords": [
+    "javascript",
+    "challenge",
+    "optimal"
+  ],
+  "author": "Ulises Hernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UlisesHdez/programming-challenge-1/issues"
+  },
+  "homepage": "https://github.com/UlisesHdez/programming-challenge-1#readme",
+  "dependencies": {}
+}
