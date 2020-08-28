@@ -4,7 +4,7 @@
   "description": "Javascript solution for Challenge 1, consists of finding the optimal sets of tasks and printing their IDs",
   "main": "app.js",
   "scripts": {
-    "test": ""
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
     "url": "https://github.com/UlisesHdez/programming-challenge-1/issues"
   },
   "homepage": "https://github.com/UlisesHdez/programming-challenge-1#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.2"
+  }
 }
